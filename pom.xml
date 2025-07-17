@@ -12,7 +12,7 @@
 	<artifactId>weather-summary</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>weather-summary</name>
-	<description>Demo project for weather summary</description>
+	<description>Spring Boot Weather Summary Application</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -59,6 +59,10 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
+        </dependency>
 		<dependency>
 			<groupId>io.projectreactor</groupId>
 			<artifactId>reactor-test</artifactId>
